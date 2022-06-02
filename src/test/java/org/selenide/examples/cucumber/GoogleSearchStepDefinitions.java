@@ -14,7 +14,7 @@ public class GoogleSearchStepDefinitions {
   @Given("an open browser with google.com")
   public void openGoogleSearch() {
     Configuration.reportsFolder = "target/surefire-reports";
-    open("https://google.com/ncr");
+    open("https://google.es/");
   }
 
   @When("a keyword {string} is entered in input field")
