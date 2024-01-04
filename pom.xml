@@ -24,6 +24,7 @@
           <systemPropertyVariables>
             <selenide.headless>true</selenide.headless>
             <selenide.downloadsFolder>target/downloads</selenide.downloadsFolder>
+            <selenide.browser>edge</selenide.browser>
 			<selenide.holdBrowserOpen>false</selenide.holdBrowserOpen>
           </systemPropertyVariables>
         </configuration>
@@ -74,3 +75,4 @@
     </plugins>
   </reporting>
 </project>
+
